@@ -18,20 +18,22 @@ namespace API
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public IConfiguration Config { get; }
+        public Startup(IConfiguration config)
         {
-            Configuration = configuration;
+            Config = config;
         }
 
-        public IConfiguration Configuration { get; }
+
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
 
             services.AddDbContext<DataContext>(options =>
-                options.UseSqlServer("Connection String");
-            );
+            {
+                options.UseSqlServer(Config.GetConnectionString("DefaultConnection"));
+            });
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

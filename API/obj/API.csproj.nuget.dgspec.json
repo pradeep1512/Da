@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\prade\\Desktop\\Course\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\prade\\Desktop\\Course\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\prade\\Desktop\\Course\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\prade\\Desktop\\Course\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\prade\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\prade\\Desktop\\Course\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prade\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,6 +21,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +41,12 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.8, )"
             },
