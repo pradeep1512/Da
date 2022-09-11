@@ -18,10 +18,10 @@ namespace API
 {
     public class Startup
     {
-        public IConfiguration Config { get; }
+        private readonly IConfiguration _config;
         public Startup(IConfiguration config)
         {
-            Config = config;
+            _config = config;
         }
 
 
@@ -32,7 +32,7 @@ namespace API
 
             services.AddDbContext<DataContext>(options =>
             {
-                options.UseSqlServer(Config.GetConnectionString("DefaultConnection"));
+                options.UseSqlServer(_config.GetConnectionString("DefaultConnection"));
             });
             services.AddControllers();
             services.AddSwaggerGen(c =>
