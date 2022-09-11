@@ -1,0 +1,6 @@
+{
+    "dataworkspace.excludedProjects": [
+        "Dating/Dating.sqlproj",
+        "DatabaseProjectdatingapp.db/DatabaseProjectdatingapp.db.sqlproj"
+    ]
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\Api\\API.csproj": {}
+    "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\Api\\API.csproj": {
+    "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\Api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\Api\\API.csproj",
+        "projectPath": "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\prade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\Api\\obj\\",
+        "outputPath": "C:\\Users\\prade\\Desktop\\Course\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prade\\AppData\\Roaming\\NuGet\\NuGet.Config",
